@@ -177,8 +177,27 @@ header{
 }
 
 
+/*---  SUBTITULO  ----*/
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    width: 100%;
+    height: 3rem;
+    font-family: var(--title-font);
+    color: var(--primary-color);
+}
 
+.subtitulo h2{
+    font-style: italic;
+    font-weight: 500;
+}
 
+.subtitulo p{
+    font-weight: 200;
+}
 
 /*---  NAVBAR  ----*/
 
@@ -238,7 +257,7 @@ header{
     align-items: center;
     width: auto;
     height: 40rem;
-    margin: 2% 8%;
+    margin: 0 8%;
     background-color: #eeefef;
 }
 
@@ -272,8 +291,6 @@ header{
     padding: 10px;
     color: var(--blanco)
 }
-
-
 
 .seccion p{
     margin: 0 10%;
